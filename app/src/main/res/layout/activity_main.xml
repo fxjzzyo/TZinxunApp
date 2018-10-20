@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <io.github.zeleven.playa.ui.widget.BottomNavigationViewEx
+    <io.jxf.free.ziliao.ui.widget.BottomNavigationViewEx
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

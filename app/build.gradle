@@ -5,12 +5,21 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.3"
     defaultConfig {
-        applicationId "io.github.zeleven.playa"
+        applicationId "com.jxf.freeziliao"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "1.10"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                                app_icon   : "@mipmap/icon",
+                                appkey     : "b4da0005fd0fb87264ae3832"]
+
+        ndk {
+            abiFilters 'armeabi','armeabi-v7a','x86'
+        }
+
     }
     buildTypes {
         release {

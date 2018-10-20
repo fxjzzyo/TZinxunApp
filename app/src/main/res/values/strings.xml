@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Playa</string>
+    <string name="app_name">免费资料</string>
     <string name="bottom_navigation_view_behavior">
-        io.github.zeleven.playa.ui.widget.BottomNavigationViewBehavior
+        io.jxf.free.ziliao.ui.widget.BottomNavigationViewBehavior
     </string>
 
     <!-- 顶部导航菜单 -->
